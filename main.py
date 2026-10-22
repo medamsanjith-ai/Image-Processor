@@ -221,7 +221,7 @@ def save_current(img):
 
 
 def main():
-    print("Pure-Python image processor (no libraries).")
+    print("Pure-Python image processor")
     start = choose_image()
     history = [start]
     show_image("Starting image", start)
